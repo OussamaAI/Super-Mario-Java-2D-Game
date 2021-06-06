@@ -1,5 +1,6 @@
 package com.TETOSOFT.input;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.List;
@@ -11,11 +12,12 @@ public class InputManager implements KeyListener, MouseListener,
     MouseMotionListener, MouseWheelListener
 {
     
+	/* i make this cursor visible now*/
     public static final Cursor INVISIBLE_CURSOR =
         Toolkit.getDefaultToolkit().createCustomCursor(
-            Toolkit.getDefaultToolkit().getImage(""),
+            Toolkit.getDefaultToolkit().getImage("cursor.png"),
             new Point(0,0),
-            "invisible");
+            "visible");
 
     
     public static final int MOUSE_MOVE_LEFT = 0;
@@ -289,6 +291,7 @@ public class InputManager implements KeyListener, MouseListener,
     // from the MouseListener interface
     public void mouseClicked(MouseEvent e) {
         // do nothing
+    	System.out.println("mouse x :"+getMouseX());
     }
 
 

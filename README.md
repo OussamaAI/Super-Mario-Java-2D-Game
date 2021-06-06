@@ -1,11 +1,4 @@
-# My Super Mario Java 2D Game
+# A Java based super-mario-like game
 
-This is a full screen 2D Java game like super mario with some basic creatures and maps.
-
-This game is implemented using the Java programming language, using the java graphics librieries.
-
-The used IDE is netbeans (I uploaded all project artifacts), also the game JAR file is uploaded.
-
-This game is free to use and the code is available to anyone to learn from it without any restrictions.
-
-Please visit my website. http://www.mohamedtalaat.net/
+A fork of matala3t's (http://www.mohamedtalaat.net/) rendition of a marion like game.
+Developped for a school project on agile processes.

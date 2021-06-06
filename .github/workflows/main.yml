@@ -24,10 +24,10 @@ jobs:
 #     - name: Step 3 - Build Ant Project
 #       run: ant -noinput -buildfile build.xml
         
-#     - name: Step 4 - Build Maven Project
-#       run: |
-#           mvn -B package --file pom.xml
-#           mkdir staging && cp target/*.jar staging
+    - name: Step 4 - Build Maven Project
+      run: |
+          mvn -B package --file pom.xml
+          mkdir staging && cp target/*.jar staging
           
     - name: Step 5 - Set up a cache for Maven
       uses: actions/cache@v2
